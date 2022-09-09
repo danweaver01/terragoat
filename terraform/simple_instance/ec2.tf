@@ -18,7 +18,7 @@ resource "aws_security_group" "ssh_traffic" {
     git_last_modified_at = "2021-11-18 12:47:46"
     git_last_modified_by = "54596211+vineet-persad@users.noreply.github.com"
     git_modifiers        = "54596211+vineet-persad"
-    git_org              = "vineet-persad"
+    git_org              = "danweaver01"
     git_repo             = "terragoat"
     yor_trace            = "a5300675-3ddd-4743-b001-92fb989cf882"
   }
@@ -35,7 +35,7 @@ resource "aws_instance" "web_server_instance" {
     git_last_modified_at = "2021-11-18 12:47:46"
     git_last_modified_by = "54596211+vineet-persad@users.noreply.github.com"
     git_modifiers        = "54596211+vineet-persad"
-    git_org              = "vineet-persad"
+    git_org              = "danweaver01"
     git_repo             = "terragoat"
     yor_trace            = "b26aac10-e297-4f1e-9429-8f4f2c2c5806"
   }
