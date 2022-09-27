@@ -70,6 +70,16 @@ resource "aws_s3_bucket" "financials" {
 }
 
 
+resource "aws_s3_bucket_versioning" "financials" {
+  bucket = aws_s3_bucket.financials.id
+
+  versioning_configuration {
+    status = "Enabled"
+  }
+}
+
+
+
 resource "aws_s3_bucket_server_side_encryption_configuration" "financials" {
   bucket = aws_s3_bucket.financials.bucket
 
